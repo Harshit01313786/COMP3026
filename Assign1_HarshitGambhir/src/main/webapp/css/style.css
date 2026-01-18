@@ -1,0 +1,100 @@
+body {
+  font-family: "Times New Roman", serif;
+  background: #fff;
+  margin: 0;
+  padding: 0;
+  zoom: 85%
+}
+
+.title {
+  text-align: center;
+  font-size: 64px;
+  font-weight: 800;
+  margin: 35px 0 25px;
+}
+
+.formTable {
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+.formTable td {
+  padding: 10px 14px;
+  vertical-align: middle;
+}
+
+.label {
+  font-size: 22px;
+  text-align: right;
+  white-space: nowrap;
+  padding-right: 18px;
+}
+
+
+.error {
+  color: red;
+  font-size: 18px;
+  font-weight: 600;
+  white-space: nowrap;
+  visibility: hidden;
+}
+
+
+.smallInput {
+  width: 190px;
+  height: 26px;
+  font-size: 18px;
+  padding: 2px 6px;
+  border: 2px solid #9aa3ad;
+  outline: none;
+}
+
+.longInput {
+  width: 560px;
+  height: 26px;
+  font-size: 18px;
+  padding: 2px 6px;
+  border: 2px solid #9aa3ad;
+  outline: none;
+}
+
+.countrySelect {
+  width: 290px;
+  height: 32px;
+  font-size: 18px;
+  border: 2px solid #9aa3ad;
+  outline: none;
+}
+
+.inlineRow label {
+  font-size: 18px;
+  margin-right: 16px;
+}
+
+.aboutLabel {
+  vertical-align: top;
+  padding-top: 18px;
+}
+
+.aboutBox {
+  width: 650px;
+  height: 240px;
+  font-size: 18px;
+  padding: 8px;
+  border: 2px solid #9aa3ad;
+  resize: none;
+  outline: none;
+}
+
+.submitRow {
+  text-align: center;
+  padding-top: 18px;
+}
+
+.submitBtn {
+  font-size: 18px;
+  padding: 4px 18px;
+  border: 2px solid #777;
+  background: #eee;
+  cursor: pointer;
+}
