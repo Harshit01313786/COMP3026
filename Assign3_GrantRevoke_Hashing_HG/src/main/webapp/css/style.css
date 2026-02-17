@@ -1,0 +1,95 @@
+body {
+  font-family: "Times New Roman", serif;
+  background: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.pageWrap {
+  width: 760px;
+  margin: 20px auto;
+  border: 1px dotted #999;
+  padding: 10px 14px 22px;
+}
+
+.title {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 800;
+  color: hotpink;
+  text-decoration: underline;
+  margin: 10px 0 10px;
+}
+
+.hrLine {
+  border: 0;
+  border-top: 1px solid #cfcfcf;
+  margin: 6px 0 12px;
+}
+
+.formTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.formTable td {
+  padding: 10px 8px;
+  vertical-align: middle;
+}
+
+.label {
+  width: 170px;
+  font-size: 20px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.inputCell { width: 320px; }
+.errorCell { width: 260px; }
+
+.textInput {
+  width: 290px;
+  height: 26px;
+  font-size: 18px;
+  border: 1px solid #888;
+  padding: 2px 6px;
+  outline: none;
+}
+
+.bigTextArea {
+  width: 290px;
+  height: 90px;
+  border: 1px solid #888;
+  font-size: 18px;
+  padding: 6px;
+  outline: none;
+  resize: none;
+}
+
+.err {
+  color: red;
+  font-size: 16px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.submitRow {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.submitBtn {
+  font-size: 22px;
+  font-weight: 700;
+  padding: 6px 26px;
+  border: 1px solid #666;
+  background: #e7f0ff;
+  cursor: pointer;
+}
+
+.note {
+  font-size: 14px;
+  color: #444;
+  margin-top: 10px;
+  text-align: center;
+}
